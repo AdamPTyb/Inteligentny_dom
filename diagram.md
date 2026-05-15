@@ -1,3 +1,6 @@
+## Diagram UML
+
+```mermaid
 classDiagram
 
 class Device {
