@@ -66,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1778870579314</updated>
-      <workItem from="1778870580323" duration="4340000" />
+      <workItem from="1778870580323" duration="4665000" />
     </task>
     <task id="LOCAL-00001" summary="Projekt Inteligentny Dom">
       <option name="closed" value="true" />
@@ -116,7 +116,47 @@
       <option name="project" value="LOCAL" />
       <updated>1778874922203</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Projekt Inteligentny Dom">
+      <option name="closed" value="true" />
+      <created>1778874965693</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1778874965693</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Projekt Inteligentny Dom">
+      <option name="closed" value="true" />
+      <created>1778875008230</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1778875008230</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Projekt Inteligentny Dom">
+      <option name="closed" value="true" />
+      <created>1778875033382</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1778875033382</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Projekt Inteligentny Dom">
+      <option name="closed" value="true" />
+      <created>1778875105840</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1778875105840</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Projekt Inteligentny Dom">
+      <option name="closed" value="true" />
+      <created>1778875251377</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1778875251377</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
