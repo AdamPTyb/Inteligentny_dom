@@ -4,7 +4,7 @@ Opis projektu,
 Aplikacja symuluje system inteligentnego domu umożliwiający zarządzanie urządzeniami.
 
 Program pozwala:
-dodawać urządzenia,,
+dodawać urządzenia,
 wyświetlać ich status,,
 włączać urządzenia,,
 zmieniać ustawienia,,
