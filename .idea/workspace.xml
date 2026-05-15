@@ -1,22 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="532cca90-a9bb-44af-ac96-c16d9b5fa0ae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Inteligentny_dom.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/devices/air_conditioner.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/devices/camera.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/devices/device.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/devices/smart_home.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/devices/smart_socket.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interfaces/adjustable.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interfaces/switchable.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="532cca90-a9bb-44af-ac96-c16d9b5fa0ae" name="Changes" comment="Projekt Inteligentny Dom">
+      <change afterPath="$PROJECT_DIR$/diagram.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +20,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "AdamPTyb"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/AdamPTyb/Inteligentny_dom.git",
+    "accountId": "34a2e9e0-9f48-4b78-aeaf-5e884ab57866"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 5,
   "fromUser": false
@@ -51,6 +50,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "master",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -69,12 +69,36 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1778870579314</updated>
-      <workItem from="1778870580323" duration="2870000" />
+      <workItem from="1778870580323" duration="3848000" />
     </task>
+    <task id="LOCAL-00001" summary="Projekt Inteligentny Dom">
+      <option name="closed" value="true" />
+      <created>1778873996895</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1778873996895</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Projekt Inteligentny Dom" />
+    <option name="LAST_COMMIT_MESSAGE" value="Projekt Inteligentny Dom" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Inteligentny_dom$main.coverage" NAME="main Coverage Results" MODIFIED="1778872983364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
