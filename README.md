@@ -5,19 +5,19 @@ Aplikacja symuluje system inteligentnego domu umożliwiający zarządzanie urzą
 
 Program pozwala:
 dodawać urządzenia,
-wyświetlać ich status,,
-włączać urządzenia,,
-zmieniać ustawienia,,
-symulować działanie inteligentnego domu.,
+wyświetlać ich status,
+włączać urządzenia,
+zmieniać ustawienia,
+symulować działanie inteligentnego domu.
 
 Zastosowane elementy OOP,
 W projekcie wykorzystano:
-klasy i obiekty,,
-dziedziczenie,,
-klasy abstrakcyjne,,
-interfejsy,,
-enkapsulację,,
-polimorfizm.,
+klasy i obiekty,
+dziedziczenie,
+klasy abstrakcyjne,
+interfejsy,
+enkapsulację,
+polimorfizm.
 
 Struktura projektu,
 devices,
