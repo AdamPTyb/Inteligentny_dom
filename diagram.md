@@ -1,64 +1,61 @@
-# Diagram klas - Inteligentny Dom
+classDiagram
 
-## Relacje klas
+class Device {
+    -__device_id
+    -__name
+    -__room
+    -__status
+    +get_status()
+    +change_status()
+    +get_details()
+}
 
-```text
-                +-------------------+
-                |      Device       |
-                +-------------------+
-                | - __device_id     |
-                | - __name          |
-                | - __room          |
-                | - __status        |
-                +-------------------+
-                | + get_status()    |
-                | + change_status() |
-                | + get_details()   |
-                +-------------------+
-                          ^
-        -----------------------------------------
-        |                   |                  |
-        |                   |                  |
-+----------------+  +----------------+  +----------------+
-|  SmartSocket   |  | AirConditioner |  |     Camera     |
-+----------------+  +----------------+  +----------------+
-| - power_usage  |  | - temperature  |  | - recording    |
-+----------------+  +----------------+  +----------------+
-| + turn_on()    |  | + turn_on()    |  | + start_record |
-| + turn_off()   |  | + turn_off()   |  | + stop_record  |
-| + get_details()|  | + set_value()  |  | + get_details()|
-+----------------+  | + get_details()|
-                    +----------------+
+class Switchable {
+    <<interface>>
+    +turn_on()
+    +turn_off()
+}
 
-        +----------------+
-        |   Switchable   |
-        +----------------+
-        | + turn_on()    |
-        | + turn_off()   |
-        +----------------+
+class Adjustable {
+    <<interface>>
+    +set_value()
+}
 
-        +----------------+
-        |   Adjustable   |
-        +----------------+
-        | + set_value()  |
-        +----------------+
+class SmartSocket {
+    -power_usage
+    +turn_on()
+    +turn_off()
+    +get_details()
+}
 
-                +----------------+
-                |   SmartHome    |
-                +----------------+
-                | - devices      |
-                +----------------+
-                | + add_device() |
-                | + remove_device() |
-                | + find_device() |
-                | + show_all_devices() |
-                +----------------+
-```
+class AirConditioner {
+    -temperature
+    +turn_on()
+    +turn_off()
+    +set_value()
+    +get_details()
+}
 
-## Opis diagramu
+class Camera {
+    -recording
+    +start_recording()
+    +stop_recording()
+    +get_details()
+}
 
-- `Device` jest klasą bazową abstrakcyjną.
-- `SmartSocket`, `AirConditioner` i `Camera` dziedziczą po klasie `Device`.
-- `Switchable` jest interfejsem dla urządzeń włączanych i wyłączanych.
-- `Adjustable` jest interfejsem dla urządzeń z regulacją wartości.
-- `SmartHome` zarządza wszystkimi urządzeniami.
+class SmartHome {
+    -devices
+    +add_device()
+    +remove_device()
+    +find_device()
+    +show_all_devices()
+}
+
+Device <|-- SmartSocket
+Device <|-- AirConditioner
+Device <|-- Camera
+
+Switchable <|.. SmartSocket
+Switchable <|.. AirConditioner
+
+Adjustable <|.. AirConditioner
