@@ -62,3 +62,5 @@ Switchable <|.. SmartSocket
 Switchable <|.. AirConditioner
 
 Adjustable <|.. AirConditioner
+
+SmartHome --> Device

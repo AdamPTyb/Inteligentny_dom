@@ -10,8 +10,8 @@ włączać urządzenia,
 zmieniać ustawienia,
 symulować działanie inteligentnego domu.
 
-Zastosowane elementy OOP,
-W projekcie wykorzystano:
+Zastosowane elementy OOP:
+w projekcie wykorzystano:
 klasy i obiekty,
 dziedziczenie,
 klasy abstrakcyjne,
