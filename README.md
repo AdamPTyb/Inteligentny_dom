@@ -19,7 +19,7 @@ interfejsy,
 enkapsulację,
 polimorfizm.
 
-Struktura projektu,
+Struktura projektu:
 devices,
 Device,
 SmartSocket,
@@ -31,7 +31,7 @@ interfaces,
 Switchable,
 Adjustable,
 
-Technologie,
+Technologie:
 Python 3.14,
 PyCharm,
 Git,
