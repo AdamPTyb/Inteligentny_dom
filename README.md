@@ -21,15 +21,14 @@ polimorfizm.
 
 Struktura projektu:
 devices,
-Device,
-SmartSocket,
-AirConditioner,
-Camera,
-SmartHome,
-
+device,
+smart_socket,
+air_conditioner,
+camera,
+smart_home,
 interfaces,
-Switchable,
-Adjustable,
+switchable,
+adjustable,
 
 Technologie:
 Python 3.14,
