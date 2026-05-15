@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="532cca90-a9bb-44af-ac96-c16d9b5fa0ae" name="Changes" comment="Projekt Inteligentny Dom" />
+    <list default="true" id="532cca90-a9bb-44af-ac96-c16d9b5fa0ae" name="Changes" comment="Projekt Inteligentny Dom">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1778870579314</updated>
-      <workItem from="1778870580323" duration="4665000" />
+      <workItem from="1778870580323" duration="4968000" />
     </task>
     <task id="LOCAL-00001" summary="Projekt Inteligentny Dom">
       <option name="closed" value="true" />
@@ -156,7 +158,23 @@
       <option name="project" value="LOCAL" />
       <updated>1778875251377</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Projekt Inteligentny Dom">
+      <option name="closed" value="true" />
+      <created>1778875274276</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1778875274276</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Projekt Inteligentny Dom">
+      <option name="closed" value="true" />
+      <created>1778875412681</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1778875412681</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

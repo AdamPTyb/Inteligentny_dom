@@ -1,17 +1,17 @@
-Projekt zaliczeniowy z Programowania Obiektowego wykonany w języku Python.
+# Projekt zaliczeniowy z Programowania Obiektowego wykonany w języku Python.
 
-Opis projektu:
+## Opis projektu:
 aplikacja symuluje system inteligentnego domu umożliwiający zarządzanie urządzeniami.
 
-Program pozwala:
+## Program pozwala:
 dodawać urządzenia,
 wyświetlać ich status,
 włączać urządzenia,
 zmieniać ustawienia,
 symulować działanie inteligentnego domu.
 
-Zastosowane elementy OOP,
-w projekcie wykorzystano:
+## Zastosowane elementy OOP
+W projekcie wykorzystano:
 klasy i obiekty,
 dziedziczenie,
 klasy abstrakcyjne,
@@ -19,7 +19,7 @@ interfejsy,
 enkapsulację,
 polimorfizm.
 
-Struktura projektu:
+## Struktura projektu:
 devices,
 device,
 smart_socket,
@@ -30,11 +30,11 @@ interfaces,
 switchable,
 adjustable,
 
-Technologie:
+## Technologie:
 Python 3.14,
 PyCharm,
 Git,
 GitHub,
 
-Autor,
+## Autor:
 Adam Tyburski
