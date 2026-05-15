@@ -1,10 +1,10 @@
 # Projekt zaliczeniowy z Programowania Obiektowego wykonany w języku Python.
 
 ## Opis projektu:
-aplikacja symuluje system inteligentnego domu umożliwiający zarządzanie urządzeniami.
+Aplikacja symuluje system inteligentnego domu umożliwiający zarządzanie urządzeniami.
 
 ## Program pozwala:
-dodawać urządzenia,
+Dodawać urządzenia,
 wyświetlać ich status,
 włączać urządzenia,
 zmieniać ustawienia,
