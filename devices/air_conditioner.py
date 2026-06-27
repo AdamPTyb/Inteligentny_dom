@@ -16,6 +16,14 @@ class AirConditioner(Device, Switchable, Adjustable):
         self._status = "OFF"
 
     def set_value(self, value):
+
+        if value < 16 or value > 30:
+            raise ValueError(
+                "Temperature change rejected."
+                "\nCurrent temperature: 21°C"
+                "\nAllowed range: 16-30°C"
+            )
+
         self.temperature = value
 
     def get_details(self):

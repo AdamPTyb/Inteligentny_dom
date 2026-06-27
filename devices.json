@@ -1,0 +1,29 @@
+[
+    {
+        "type": "SmartSocket",
+        "name": "Kitchen Socket",
+        "room": "Kitchen",
+        "status": "OFF",
+        "power_usage": 120,
+        "temperature": null,
+        "recording": null
+    },
+    {
+        "type": "AirConditioner",
+        "name": "Bedroom AC",
+        "room": "Bedroom",
+        "status": "OFF",
+        "power_usage": null,
+        "temperature": 21,
+        "recording": null
+    },
+    {
+        "type": "Camera",
+        "name": "Front Door Camera",
+        "room": "Hall",
+        "status": "OFF",
+        "power_usage": null,
+        "temperature": null,
+        "recording": false
+    }
+]

@@ -4,10 +4,10 @@
 classDiagram
 
 class Device {
-    -__device_id
-    -__name
-    -__room
-    -__status
+    -_device_id
+    -_name
+    -_room
+    -_status
     +get_status()
     +change_status()
     +get_details()
@@ -52,6 +52,12 @@ class SmartHome {
     +remove_device()
     +find_device()
     +show_all_devices()
+    +turn_on_all_switchable()
+}
+
+class FileManager {
+    +save_devices()
+    +load_devices()
 }
 
 Device <|-- SmartSocket
@@ -64,3 +70,5 @@ Switchable <|.. AirConditioner
 Adjustable <|.. AirConditioner
 
 SmartHome --> Device
+FileManager ..> Device
+```
